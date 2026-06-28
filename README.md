@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# next-tanabut-portfolio-app
 
-## Getting Started
+เว็บไซต์ Portfolio ส่วนตัวที่พัฒนาขึ้นเพื่อนำเสนอผลงาน ทักษะ และประวัติส่วนตัว โดยเน้นการออกแบบที่ทันสมัยและตอบสนองต่อผู้ใช้งาน (Responsive Design)
 
-First, run the development server:
+## 🔗 Live Demo
+[https://next-tanabut-portfolio-app.vercel.app/](https://next-tanabut-portfolio-app.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Tech Stack
+โปรเจกต์นี้พัฒนาด้วยเครื่องมือและเทคโนโลยีสมัยใหม่:
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS (v4)
+- **Animation:** Framer Motion
+- **Fonts:** Google Fonts (Prompt, Sarabun, Inter, Fira Code)
+- **Image Optimization:** next/image
+- **Deployment:** Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📑 รายละเอียดหน้าเว็บไซต์
+1. **Home (/)**: ข้อมูลแนะนำตัว, รูปโปรไฟล์ และตำแหน่งที่สมัคร
+2. **About Me (/about)**: ประวัติส่วนตัว, การศึกษา และเป้าหมายการทำงาน
+3. **Skills (/me/skills)**: แสดงหมวดหมู่ความสามารถทางเทคนิค (Frontend, Backend, Database, Tools)
+4. **Projects (/me/projects)**: ผลงานที่ผ่านมา 3 โครงการ พร้อมรายละเอียดและเทคโนโลยีที่ใช้
+5. **Gallery (/me/gallery)**: บรรยากาศการเขียนโปรแกรมและการทำงาน
+6. **Contact (/contact)**: ข้อมูลติดต่อและปุ่มดาวน์โหลด Resume
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ ฟีเจอร์เด่น
+- **Responsive Design:** รองรับการแสดงผลบนหน้าจอมือถือและคอมพิวเตอร์อย่างลื่นไหล
+- **Image Optimization:** ใช้ `next/image` เพื่อเพิ่มประสิทธิภาพในการโหลดรูปภาพ
+- **Font Optimization:** ใช้งาน Google Fonts ตามมาตรฐาน Next.js เพื่อความคมชัดและความสวยงาม
+- **Smooth Animation:** เพิ่มประสบการณ์ใช้งานที่ดีด้วย Framer Motion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 การใช้งาน
+หากต้องการนำโปรเจกต์ไปพัฒนาต่อ:
+1. Clone repository นี้
+2. ติดตั้ง dependencies: `npm install`
+3. รันโปรเจกต์ในโหมดพัฒนา: `npm run dev`
+4. เปิดเบราว์เซอร์ที่ `http://localhost:3000`
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*พัฒนาโดย: Tanabut Watayakone*
