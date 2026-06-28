@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-prompt: var(--font-prompt);
+  --font-sarabun: var(--font-sarabun);
+  --font-fira-code: var(--font-fira-code);
+}
+
+/* ตั้งค่า Default */
+body {
+  font-family: var(--font-sarabun);
+}
+
+.font-fira {
+  font-family: var(--font-fira-code);
+}
